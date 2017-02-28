@@ -2,7 +2,7 @@ var query = require('./database/query');
 
 console.log('The bot is starting');
 
-console.log(query.getPuns())
+console.log(query.Puns())
 
 var Twit = require('twit');
 

@@ -1,8 +1,8 @@
 var knex = require('./knex');
 function Puns(){
-  return knex("Puns").where('id', 1)
+  return knex("Puns")
 }
-console.log(Puns())
+
 module.exports = {
 Puns
 }

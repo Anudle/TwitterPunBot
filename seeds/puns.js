@@ -145,7 +145,6 @@ exports.seed = function(knex, Promise) {
         {Pun: "Don't spell part backwards. It's a trap."},
         {Pun: "Why was Cinderella thrown off the basketball team? She ran away from the ball."},
         {Pun: "Q: What do you call the security outside of a Samsung Store? A: Guardians of the Galaxy."},
-        //
         {Pun: "Thieves had broken into my house and stolen everything except my soap, shower gel, towels and deodorant. Dirty Bastards."},
         {Pun: "I'm emotionally constipated. I haven't given a shit in days."},
         {Pun: "I am on a seafood diet. Every time I see food, I eat it."},
@@ -158,6 +157,25 @@ exports.seed = function(knex, Promise) {
         {Pun: "I'm no photographer, but I can picture us together."},
         {Pun: "Why don't cannibals eat clowns? They taste funny."},
         {Pun: "I wanna make a joke about sodium, but Na."},
+        {Pun: "I hate insects puns, they really bug me."},
+        {Pun: "I saw an ad for burial plots, and thought to myself this is the last thing I need."},
+        {Pun: "What do you call Watson when Sherlock isn't around? Holmeless."},
+        {Pun: "Why did the bee get married? Because he found his honey."},
+        {Pun: "Did you hear about the Italian chef with a terminal illness? He pastaway."},
+        {Pun: "Having sex in an elevator is wrong on so many levels."},
+        {Pun: "How did two oceans or seas become friends? Because they kept waving at each other."},
+        {Pun: "Why don't cannibals eat clowns? They taste funny."},
+        {Pun: "I've just written a song about tortillas, actually, it's more of a rap."},
+        {Pun: "How can you spot the blind guy at the nudist colony? It's not hard."},
+        {Pun: "What do you call people who are afraid of Santa Claus? Claustrophobic."},
+        {Pun: "I am so poor I can't even pay attention."},
+        {Pun: "My math teacher called me average. How mean!"},
+        {Pun: "Last time I got caught stealing a calendar I got 12 months."},
+        {Pun: "Q: What do you call a cow with a twitch? A: 'Beef Jerky!'"},
+        {Pun: "Which day do chickens hate the most? Fry-day."},
+        {Pun: "A bus station is where a bus stops. A train station is where a train stops. On my desk, I have a work station..."},
+        {Pun: "I put the 'fun' in dysfunctional."},
+        //
       ]);
     });
 };

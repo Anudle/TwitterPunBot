@@ -3,8 +3,6 @@ var query = require('./database/query');
 console.log('The bot is starting');
 
 
-
-
 var Twit = require('twit');
 
 var config = require('./config');
@@ -14,12 +12,13 @@ query.Puns().then(function(puns) {
 
     function doScaledTimeout(i) {
         setTimeout(function() {
-						tweetIt(i)
-						warning()
-        }, i * 1000 * 60 * 24);
+            tweetIt(i)
+            warning(i)
+        }, i * 10000);
     }
-    for (var i = 1; i <= 99; i++)
+    for (var i = 1; i <= 99; i++){
         doScaledTimeout(i);
+      }
     //tweetIt();
     //setInterval(tweetIt, 1000 * 5);
     function tweetIt(i) {
@@ -39,10 +38,10 @@ query.Puns().then(function(puns) {
         }
     }
 
-    function warning() {
+    function warning(i) {
         {
             var tweet = {
-                status: 'Beep Boop I am a pun twitter bot, I was created by Anu to give a pun every 24 hours. Please do not hate me for it. Boop Beep.'
+                status: 'Beep Boop, I am a pun bot, I was created by my handsome master Anu to tweet a pun every 24 hours. That was pun ' + i + ' out of 100. Boop Beep.'
             }
         }
         T.post('statuses/update', tweet, tweeted);
@@ -55,6 +54,6 @@ query.Puns().then(function(puns) {
             }
         }
     }
-}
+
 
 })

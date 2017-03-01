@@ -5,16 +5,9 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('Puns').insert([
-        {Pun: "I couldn't quite remember how to throw a boomerang, but eventually it came back to me."},
-        {Pun: "Show me a piano falling down a mineshaft and I'll show you A-flat minor."},
-        {Pun: "I wasn't originally going to get a brain transplant, but then I changed my mind."},
-        {Pun: "I'd tell you a chemistry joke but I know I wouldn't get a reaction."},
-        {Pun: "I wondered why the baseball was getting bigger. Then it hit me."},
-        {Pun: "Yesterday I accidentally swallowed some food coloring. The doctor says I'm OK, but I feel like I've dyed a little inside."},
-        {Pun: "A friend of mine tried to annoy me with bird puns, but I soon realized that toucan play at that game."},
         {Pun: "Did you hear about the guy who got hit in the head with a can of soda? He was lucky it was a soft drink."},
         {Pun: "Have you ever tried to eat a clock? It's very time consuming."},
-        {Pun: "	I'm reading a book about anti-gravity. It's impossible to put down."},
+        {Pun: "I'm reading a book about anti-gravity. It's impossible to put down."},
         {Pun: "The experienced carpenter really nailed it, but the new guy screwed everything up."},
         {Pun: "If there was someone selling drugs in this place, weed know."},
         {Pun: "When notes get in treble, bass-ically they get put behind bars. The alto-nate punishment is to push them off a clef and hope they land flat on sharp objects."},
@@ -104,6 +97,13 @@ exports.seed = function(knex, Promise) {
         {Pun: "Pencils could be made with erasers at both ends, but what would be the point?"},
         {Pun: "Einstein developed a theory about space, and it was about time too."},
         {Pun: "My tailor is happy to make a pair of pants for me, or at least sew it seams."},
+        {Pun: "I couldn't quite remember how to throw a boomerang, but eventually it came back to me."},
+        {Pun: "Show me a piano falling down a mineshaft and I'll show you A-flat minor."},
+        {Pun: "I wasn't originally going to get a brain transplant, but then I changed my mind."},
+        {Pun: "I'd tell you a chemistry joke but I know I wouldn't get a reaction."},
+        {Pun: "I wondered why the baseball was getting bigger. Then it hit me."},
+        {Pun: "Yesterday I accidentally swallowed some food coloring. The doctor says I'm OK, but I feel like I've dyed a little inside."},
+        {Pun: "A friend of mine tried to annoy me with bird puns, but I soon realized that toucan play at that game."}
       ]);
     });
 };

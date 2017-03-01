@@ -41,7 +41,7 @@ query.Puns().then(function(puns) {
     function warning(i) {
         {
             var tweet = {
-                status: 'Beep Boop, I am a pun bot, I was created by my handsome master Anu. I tweet a pun every 24 hours. That was pun #' + i + '. Boop Beep.'
+                status: 'Beep Boop, I am a pun bot, I was created by my handsome master Anu. I tweet a pun every 24 hours. That was pun #' + i +'. Boop Beep.'
             }
         }
         T.post('statuses/update', tweet, tweeted);

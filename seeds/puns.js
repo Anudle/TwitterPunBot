@@ -235,6 +235,7 @@ exports.seed = function(knex, Promise) {
         {Pun: "Why didn't the leopard go on vacation? Couldn't find the right spot."},
         {Pun: "What room can no one enter? Mushroom"},
         {Pun: "What is a parasite? Something you see in Paris."},
+        {Pun: "Went to an Oasis concert with my sister. I yelled 'Go Oasis!' and then my sister left."}
       ]);
     });
 };

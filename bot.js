@@ -14,7 +14,7 @@ query.Puns().then(function(puns) {
         setTimeout(function() {
             tweetIt(i)
             warning(i)
-        }, i * 1000 * 60 * 10 );
+        }, i * 1000 * 60);
     }
     for (var i = 1; i < 365; i++){
         doScaledTimeout(i);

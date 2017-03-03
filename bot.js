@@ -14,10 +14,10 @@ query.Puns().then(function(puns) {
     function doScaledTimeout(i) {
         setTimeout(function() {
             tweetIt(i)
-            warning(i)
+            //warning(i)
         }, i * 1000 * 60 * 60 * 24);
     }
-    for (var i = 1; i <= 99; i++){
+    for (var i = 1; i <= 360; i++){
         doScaledTimeout(i);
       }
     //tweetIt();

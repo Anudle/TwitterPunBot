@@ -10,17 +10,17 @@ var T = new Twit(config);
 
 query.Puns().then(function(puns) {
 
-
-
-  function doScaledTimeout(i) {
+    function doScaledTimeout(i) {
         setTimeout(function() {
             tweetIt(i)
             warning(i)
-        }, i * 1000 * 60 * 60 * 24);
+        }, i * 1000 * 60);
     }
-    for (var i = 0; i < 365; i++){
+    for (var i = 1; i <= 99; i++){
         doScaledTimeout(i);
       }
+    //tweetIt();
+    //setInterval(tweetIt, 1000 * 5);
     function tweetIt(i) {
         {
             var tweet = {
@@ -41,7 +41,7 @@ query.Puns().then(function(puns) {
     function warning(i) {
         {
             var tweet = {
-                status: 'Beep Boop, I am a pun bot, I was created by my handsome master Anu. I tweet a pun every 24 hours. That was pun #' + i +'. Boop Beep.'
+                status: 'Beep Boop, I am a pun bot, I was created by my handsome master Anu. t tweet a pun every 24 hours. That was pun ' + i + ' out of 100. Boop Beep.'
             }
         }
         T.post('statuses/update', tweet, tweeted);

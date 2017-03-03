@@ -10,13 +10,15 @@ var T = new Twit(config);
 
 query.Puns().then(function(puns) {
 
-    function doScaledTimeout(i) {
+
+
+  function doScaledTimeout(i) {
         setTimeout(function() {
             tweetIt(i)
             warning(i)
-        }, i * 5000 * );
+        }, i * 1000 * 60 * 60 * 24);
     }
-    for (var i = 0; i < 2; i++){
+    for (var i = 0; i < 365; i++){
         doScaledTimeout(i);
       }
     function tweetIt(i) {

@@ -17,11 +17,10 @@ query.Puns().then(function(puns) {
             //warning(i)
         }, i * 1000 * 60 * 60 * 24);
     }
-    for (var i = 1; i <= 360; i++){
+    for (var i = 1; i <= 210; i++){
         doScaledTimeout(i);
       }
-    //tweetIt();
-    //setInterval(tweetIt, 1000 * 5);
+
     console.log(puns)
     function tweetIt(i) {
         {

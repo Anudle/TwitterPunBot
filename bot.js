@@ -15,13 +15,14 @@ query.Puns().then(function(puns) {
         setTimeout(function() {
             tweetIt(i)
             //warning(i)
-        }, i * 1000 * 60 * 60 * 24);
+        }, i * 1000 * 60);
     }
     for (var i = 1; i <= 360; i++){
         doScaledTimeout(i);
       }
     //tweetIt();
     //setInterval(tweetIt, 1000 * 5);
+    console.log(puns)
     function tweetIt(i) {
         {
             var tweet = {

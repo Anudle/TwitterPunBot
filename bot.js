@@ -32,7 +32,7 @@ query.Puns().then(function(puns) {
 
         function tweeted(err, data, response) {
             if (err) {
-                console.log(err);
+                console.log(err, i);
             } else {
                 console.log("It worked!");
             }

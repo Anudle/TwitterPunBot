@@ -236,7 +236,9 @@ exports.seed = function(knex, Promise) {
         {Pun: "What room can no one enter? Mushroom"},
         {Pun: "What is a parasite? Something you see in Paris."},
         {Pun: "Went to an Oasis concert with my sister. I yelled 'Go Oasis!' and then my sister left."},
-        {Pun: "Did you hear about the fly in the toilet seat? He was pissed off."}
+        {Pun: "Did you hear about the fly in the toilet seat? He was pissed off."},
+        {Pun: "I love gradenning, from my head tomatoe."}
+
       ]);
     });
 };

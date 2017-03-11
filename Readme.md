@@ -1,2 +1,2 @@
 A bot for my account that tweet a pun every 24 hours.
-https://twitter.com/SillyPunnyBot
+https://twitter.com/PunBot10110

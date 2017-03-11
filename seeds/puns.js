@@ -208,7 +208,7 @@ exports.seed = function(knex, Promise) {
         {Pun: "I relish the fact that you've mustard the strength to ketchup to me."},
         {Pun: "What nationality is Santa Claus? North Polish."},
         {Pun: "What do you have to do to have a party in space? You have to Planet."},
-        {Pun: "What did the hurricane say to the palm tree? Better hold onto your nuts because this is no ordinary blowjob."},
+        {Pun: "I'm going to go stand in my field so I can be outstanding in my field."},
         {Pun: "What do you call a fish with no eye? FSH"},
         {Pun: "Why is the man who invests all your money called a broker?"},
         {Pun: "What do squirrels give for Valentine's Day? Forget-me-nuts."},
@@ -238,7 +238,6 @@ exports.seed = function(knex, Promise) {
         {Pun: "Went to an Oasis concert with my sister. I yelled 'Go Oasis!' and then my sister left."},
         {Pun: "Did you hear about the fly in the toilet seat? He was pissed off."},
         {Pun: "I love gradenning, from my head tomatoe."}
-
       ]);
     });
 };
